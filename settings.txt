@@ -1,4 +1,4 @@
-//my customizations start
+{
   "workbench.colorCustomizations": {
     "statusBar.background": "#413232", //"#413232",
     "statusBar.foreground": "#fff",
@@ -56,4 +56,5 @@
   "editor.cursorWidth": 4,
   "editor.cursorBlinking": "expand"
   //auto import fix end
-  //my customizations end
+  /*====  my customizations end ==== */
+}
