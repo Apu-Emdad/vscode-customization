@@ -1,14 +1,59 @@
-  //my customizations start
+//my customizations start
   "workbench.colorCustomizations": {
     "statusBar.background": "#413232", //"#413232",
     "statusBar.foreground": "#fff",
     "statusBar.noFolderBackground": "#212121",
-    "statusBar.debuggingBackground": "#263238"
+    "statusBar.debuggingBackground": "#263238",
+    "minimap.background": "#242424",
+    "editor.background": "#030315ae"
   },
-
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
+  /*  "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  }
-
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }, */
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDelete": false,
+  // auto import fix start
+  "json.schemas": [
+    {
+      "exclude": ["node_modules"]
+    }
+  ],
+  "files.associations": {
+    "*.react.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact"
+  },
+  "workbench.colorTheme": "Dark++ Italic",
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  /* "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  }, */
+  "eslint.alwaysShowStatus": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.hover.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.titleScrollbarSizing": "large",
+  "workbench.editor.enablePreview": false,
+  "vscode-edge-devtools.fallbackRevision": "@a41122be052fe9616f0def5fe6842fa942930d46",
+  "editor.cursorWidth": 4,
+  "editor.cursorBlinking": "expand"
+  //auto import fix end
   //my customizations end
