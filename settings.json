@@ -1,119 +1,133 @@
 {
-    "editor.wordWrap": "on",
-    "screencastMode.verticalOffset": 10,
-    "editor.renderWhitespace": "none",
-    "editor.inlineHints.fontFamily": "operator mono",
-    "diffEditor.ignoreTrimWhitespace": false,
-  
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
-    },
-    "diffEditor.renderSideBySide": false,
-  
-    "security.workspace.trust.untrustedFiles": "open",
-    "workbench.preferredDarkColorTheme": "Monokai",
-    /*====  my customizations start ==== */
-    "workbench.colorCustomizations": {
-      "statusBar.background": "#413232", //"#413232",
-      "statusBar.foreground": "#fff",
-      "statusBar.noFolderBackground": "#212121",
-      "statusBar.debuggingBackground": "#263238",
-      "minimap.background": "#242424",
-      "editor.background": "#030315ae"
-    },
-    /*  "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    }, */
-    "workbench.iconTheme": "material-icon-theme",
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-    },
-    "explorer.confirmDelete": false,
-    // auto import fix start
-    "json.schemas": [
-      {
-        "exclude": ["node_modules"]
-      }
-    ],
-    "files.associations": {
-      "*.react.js": "javascriptreact",
-      "*.jsx": "javascriptreact",
-      "*.js": "javascript"
-    },
-    // "javascript.preferences.importModuleSpecifierEnding": "js",
-    //auto import fix end
-  
-    "workbench.colorTheme": "Dark++ Italic",
-    "workbench.startupEditor": "none",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    /* "[javascript]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
-    },
-    "[javascriptreact]": {
-      "editor.formatOnSave": false,
-      "editor.defaultFormatter": null
-    },
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.fixAll.tslint": true,
-      "source.organizeImports": true
-    }, */
-    "eslint.alwaysShowStatus": true,
-    "bracketPairColorizer.depreciation-notice": false,
-    "editor.hover.enabled": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.titleScrollbarSizing": "large",
-    "vscode-edge-devtools.fallbackRevision": "@a41122be052fe9616f0def5fe6842fa942930d46",
-    "editor.cursorWidth": 4,
-    "editor.cursorBlinking": "expand",
-    "workbench.editor.splitInGroupLayout": "vertical",
-    "remote.SSH.remotePlatform": {
-      "gopinav.redux-toolkit-tutorials.csb-ouuvzi---tree---master---rtk-demo.csb": "linux"
-    },
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.editor.wrapTabs": true,
-    "editor.fontSize": 13,
-    "editor.minimap.maxColumn": 80,
-    "editor.fontLigatures": false,
-    "editor.fontFamily": "operator mono",
-    "npm.keybindingsChangedWarningShown": true,
-  
-    "indentRainbow.colors": [
-      "rgba(0, 255, 128, 0.15)",
-      "rgba(0, 200, 128, 0.15)",
-      "rgba(0, 64, 128, 0.2)",
-      "rgba(0, 128, 128, 0.1)"
-    ],
-    "indentRainbow.ignoreErrorLanguages": ["*"],
-    "indentRainbow.colorOnWhiteSpaceOnly": true,
-    "indentRainbow.useDots": true,
-    "indentRainbow.dotsColor": "lightblue",
-    // "indentRainbow.errorColor": "rgba(128,32,32,1)"
-  
-    /* Sass settigs */
-  
-    "liveSassCompile.settings.formats": [
-      {
-        "format": "compressed",
-        "extensionName": ".css",
-        "savePath": "/dist"
-      }
-    ],
-    "liveSassCompile.settings.generateMap": true,
-    "php.validate.executablePath": "",
-    "[php]": {
-      "editor.formatOnType": true,
-      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    },
-    "blade.format.enable": true,
-    "workbench.editor.enablePreview": false
-  
-    /*====  my customizations end ==== */
-  }
-  
+  "editor.wordWrap": "on",
+  "screencastMode.verticalOffset": 10,
+  "editor.renderWhitespace": "all",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "diffEditor.renderSideBySide": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.preferredDarkColorTheme": "Monokai",
+  /*====  my customizations start ==== */
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#413232", //"#413232",
+    "statusBar.foreground": "#fff",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238",
+    "minimap.background": "#242424",
+    "editor.background": "#030315ae"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "twig": "html"
+  },
+  "explorer.confirmDelete": false,
+  // auto import fix start
+  "json.schemas": [
+    {
+      "exclude": ["node_modules"]
+    }
+  ],
+  "files.associations": {
+    "*.react.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript",
+    "*.tsx": "typescriptreact",
+    "*.vue": "vue",
+    "*.twig": "twig",
+    "*.theme": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.vbproj": "vb",
+    "*.prisma": "prisma"
+  },
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.titleScrollbarSizing": "large",
+  "editor.cursorBlinking": "expand",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.wrapTabs": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.fontLigatures": false,
+  "files.autoSaveDelay": 5000,
+  "indentRainbow.colors": [
+    "rgba(0, 255, 128, 0.15)",
+    "rgba(0, 200, 128, 0.15)",
+    "rgba(0, 64, 128, 0.2)",
+    "rgba(0, 128, 128, 0.1)"
+  ],
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "editor.fontFamily": "Operator Mono",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 12,
+  "workbench.colorTheme": "Dark++ Italic",
+  "githubPullRequests.pullBranch": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "html.format.wrapLineLength": 140,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.insertSpaces": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "prettier.jsxSingleQuote": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.occurrencesHighlight": "off",
+  "editor.suggest.showStatusBar": true,
+  "[twig]": {
+    "editor.defaultFormatter": "mblode.twig-language-2"
+  },
+  "editor.stickyScroll.enabled": false,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "editor.inlineSuggest.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "gitlens.views.scm.grouped.views": {
+    "branches": false,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": true,
+    "searchAndCompare": false,
+    "launchpad": false,
+    "commits": false
+  },
+  "terminal.integrated.cursorWidth": 0,
+  "github.copilot.advanced": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.cursorStyle": "line",
+  "[vb]": {},
+  "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+
+  "easycode.showEasyCodePanelOnOpen": true,
+  "easycode.model": "gpt-4.1",
+  "workbench.editor.enablePreview": false
+
+  //auto import fix end
+  /*====  my customizations end ==== */
+}
